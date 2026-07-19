@@ -48,7 +48,7 @@ sales-forecasting/
 
 ---
 
-## 🚀 Deployment & Usage
+## Deployment & Usage
 
 ### 1. Environment Setup
 ```bash
