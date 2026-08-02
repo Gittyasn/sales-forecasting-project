@@ -67,7 +67,7 @@ streamlit run app.py
 
 ---
 
-## 📉 Core Business Insights
+##  Core Business Insights
 *   **Temporal Seasonality**: Sales exhibit a ~30% surge during Q4 holiday cycles.
 *   **Peak Demand Windows**: Maximum customer engagement occurs at **12:00 PM** and **7:00 PM** daily.
 *   **Revenue Drivers**: Apple ecosystem products (Macbooks/iPhones) constitute the primary revenue share.
