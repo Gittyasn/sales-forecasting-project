@@ -12,7 +12,7 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - **Professional Architecture**: Fully modular Python codebase following SOLID principles.
 - **Automated Data Pipeline**: Intelligent cleaning, date standardization, and feature extraction.
 - **Interactive Analytics**: Dynamic Plotly visualizations for temporal and product-based trends.
