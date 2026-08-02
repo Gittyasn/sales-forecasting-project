@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Powered%20By-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📝 Project Overview
+##  Project Overview
 This platform transforms raw retail sales data into actionable business intelligence. It features a robust, modular backend for data processing and a high-performance interactive dashboard for exploratory analysis and predictive forecasting.
 
 ### 🎯 Objective
