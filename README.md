@@ -7,7 +7,7 @@
 ##  Project Overview
 This platform transforms raw retail sales data into actionable business intelligence. It features a robust, modular backend for data processing and a high-performance interactive dashboard for exploratory analysis and predictive forecasting.
 
-### 🎯 Objective
+###  Objective
 To provide stakeholders with a comprehensive tool for monitoring sales performance, identifying peak seasonal trends, and projecting future revenue using machine learning.
 
 ---
