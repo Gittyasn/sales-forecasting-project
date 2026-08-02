@@ -21,7 +21,7 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Category | Technologies |
 | :--- | :--- |
 | **Language** | Python 3.8+ |
