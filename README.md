@@ -32,7 +32,7 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 sales-forecasting/
 ├── data/                   # Governed data storage (CSV)
