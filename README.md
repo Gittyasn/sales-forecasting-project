@@ -73,4 +73,3 @@ streamlit run app.py
 *   **Revenue Drivers**: Apple ecosystem products (Macbooks/iPhones) constitute the primary revenue share.
 
 ---
-*Developed for Portfolio Excellence*
