@@ -11,10 +11,12 @@ import os
 #  Load Dataset
 
 print("Loading dataset...")
-file_path = 'Sales_Product_Combined.csv'
-
+file_path = 'data/Sales_Product_Combined.csv'
 if not os.path.exists(file_path):
-    raise FileNotFoundError("Dataset file 'Sales_Product_Combined.csv' not found.")
+    file_path = 'Sales_Product_Combined.csv'
+    
+if not os.path.exists(file_path):
+    raise FileNotFoundError("Dataset file 'Sales_Product_Combined.csv' or 'data/Sales_Product_Combined.csv' not found.")
 
 df = pd.read_csv(file_path)
 

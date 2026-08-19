@@ -34,35 +34,55 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ## 📂 Repository Structure
 ```text
-sales-forecasting/
-├── data/                   # Governed data storage (CSV)
-├── src/                    # Scalable source modules
-│   ├── loader.py           # Robust ingestion & logging
-│   ├── preprocessing.py    # Automated feature engineering
-│   ├── analysis.py         # Visual intelligence library
-│   └── model.py            # Predictive ML framework
-├── app.py                  # High-performance dashboard entry
-├── requirements.txt        # Managed dependencies
-└── README.md               # System documentation
+sales-product-data/
+├── data/                       # Dataset directory
+│   └── Sales_Product_Combined.csv
+├── src/                        # Modular source files
+│   ├── loader.py               # Data ingestion & caching
+│   ├── preprocessing.py        # Feature engineering & cleaning
+│   └── model.py                # Machine learning training & prediction
+├── app.py                      # Interactive Streamlit dashboard
+├── Sales_Product.py            # Standalone CLI analysis script
+├── requirements.txt            # Package dependencies
+└── README.md                   # System documentation
 ```
 
 ---
 
-## 🚀 Deployment & Usage
+## 🚀 Setup & Execution Guide
 
 ### 1. Environment Setup
-```bash
-# Clone the repository
-git clone <repository-url>
-cd sales-forecasting
+Create a virtual environment and install the required dependencies:
+```powershell
+# Create the virtual environment
+python -m venv venv
 
-# Install core dependencies
+# Activate the virtual environment
+# Windows PowerShell:
+.\venv\Scripts\Activate.ps1
+# Windows Command Prompt:
+.\venv\Scripts\activate.bat
+# macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Launching the Platform
-```bash
+### 2. Running the Interactive Dashboard
+Launch the interactive Streamlit dashboard:
+```powershell
+# Run the Streamlit app
 streamlit run app.py
+
+# Alternatively, call Streamlit directly from the venv folder:
+.\venv\Scripts\streamlit run app.py
+```
+
+### 3. Running the Standalone CLI Analysis
+To run the analysis directly in your terminal:
+```powershell
+python Sales_Product.py
 ```
 
 ---
@@ -70,7 +90,7 @@ streamlit run app.py
 ## 📉 Core Business Insights
 *   **Temporal Seasonality**: Sales exhibit a ~30% surge during Q4 holiday cycles.
 *   **Peak Demand Windows**: Maximum customer engagement occurs at **12:00 PM** and **7:00 PM** daily.
-*   **Revenue Drivers**: Apple ecosystem products (Macbooks/iPhones) constitute the primary revenue share.
+*   **Revenue Drivers**: iPhone and Macbook Pro constitute the primary revenue share.
 
 ---
 *Developed for Portfolio Excellence*
