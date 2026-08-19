@@ -1,18 +1,18 @@
-# 📊 Sales Forecasting & Business Intelligence Platform
+####  Sales Forecasting & Business Intelligence Platform
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![Streamlit](https://img.shields.io/badge/Powered%20By-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📝 Project Overview
+##  Project Overview
 This platform transforms raw retail sales data into actionable business intelligence. It features a robust, modular backend for data processing and a high-performance interactive dashboard for exploratory analysis and predictive forecasting.
 
-### 🎯 Objective
+###  Objective
 To provide stakeholders with a comprehensive tool for monitoring sales performance, identifying peak seasonal trends, and projecting future revenue using machine learning.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - **Professional Architecture**: Fully modular Python codebase following SOLID principles.
 - **Automated Data Pipeline**: Intelligent cleaning, date standardization, and feature extraction.
 - **Interactive Analytics**: Dynamic Plotly visualizations for temporal and product-based trends.
@@ -21,7 +21,7 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Category | Technologies |
 | :--- | :--- |
 | **Language** | Python 3.8+ |
@@ -32,7 +32,7 @@ To provide stakeholders with a comprehensive tool for monitoring sales performan
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 sales-product-data/
 ├── data/                       # Dataset directory
@@ -87,10 +87,9 @@ python Sales_Product.py
 
 ---
 
-## 📉 Core Business Insights
+##  Core Business Insights
 *   **Temporal Seasonality**: Sales exhibit a ~30% surge during Q4 holiday cycles.
 *   **Peak Demand Windows**: Maximum customer engagement occurs at **12:00 PM** and **7:00 PM** daily.
 *   **Revenue Drivers**: iPhone and Macbook Pro constitute the primary revenue share.
 
 ---
-*Developed for Portfolio Excellence*
