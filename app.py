@@ -216,7 +216,7 @@ with tab1:
             yaxis=dict(showgrid=True, gridcolor='rgba(255,255,255,0.1)'),
             height=380
         )
-        st.plotly_chart(fig_monthly, use_container_width=True)
+        st.plotly_chart(fig_monthly, width="stretch")
         
     with row1_col2:
         st.markdown("### Sales Volume by Hour of Day")
@@ -236,7 +236,7 @@ with tab1:
             yaxis=dict(showgrid=True, gridcolor='rgba(255,255,255,0.1)'),
             height=380
         )
-        st.plotly_chart(fig_hourly, use_container_width=True)
+        st.plotly_chart(fig_hourly, width="stretch")
         
     # Visualizations Row 2: Weekday performance
     st.markdown("### Weekly Order Patterns")
@@ -262,7 +262,7 @@ with tab1:
         yaxis=dict(showgrid=True, gridcolor='rgba(255,255,255,0.1)'),
         height=350
     )
-    st.plotly_chart(fig_weekly, use_container_width=True)
+    st.plotly_chart(fig_weekly, width="stretch")
 
 # --- TAB 2: PRODUCT & CITY INSIGHTS ---
 with tab2:
@@ -287,7 +287,7 @@ with tab2:
             yaxis=dict(showgrid=False),
             height=400
         )
-        st.plotly_chart(fig_prod, use_container_width=True)
+        st.plotly_chart(fig_prod, width="stretch")
         
     with row2_col2:
         st.markdown("### Sales Contribution by Product Category")
@@ -304,7 +304,7 @@ with tab2:
             paper_bgcolor='rgba(0,0,0,0)',
             height=400
         )
-        st.plotly_chart(fig_cat, use_container_width=True)
+        st.plotly_chart(fig_cat, width="stretch")
         
     # City contribution
     st.markdown("### Sales Distribution by City Location")
@@ -324,7 +324,7 @@ with tab2:
         yaxis=dict(showgrid=True, gridcolor='rgba(255,255,255,0.1)'),
         height=380
     )
-    st.plotly_chart(fig_city, use_container_width=True)
+    st.plotly_chart(fig_city, width="stretch")
 
 # --- TAB 3: PREDICTIVE FORECASTING ---
 with tab3:
