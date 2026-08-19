@@ -49,7 +49,7 @@ sales-product-data/
 
 ---
 
-## 🚀 Setup & Execution Guide
+##  Setup & Execution Guide
 
 ### 1. Environment Setup
 Create a virtual environment and install the required dependencies:
